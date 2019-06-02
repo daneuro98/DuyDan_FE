@@ -1,0 +1,94 @@
+#menu{
+	width: 100%;
+	height: 50px;
+	background:#6cd108;
+		}
+#menu li{
+
+	list-style: none;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 100%;
+	line-height: 40px;
+	border-right: 1px groove white;
+	position: relative;
+	background:#6cd108;
+	border-radius:5px;
+
+}
+#menu li a{
+	text-decoration: none;
+	color: white;
+}
+#submenu{
+	display: none;
+}
+#menu li:hover #submenu{
+	display: block;
+}
+#submenu{
+
+	width: 100px;
+	
+	top: 50px;
+	left: -40px;
+	position: absolute;
+}
+#submenu li{
+	background: #007700;	
+	clear: both;
+	width: 200px;
+	border-bottom: 1px groove white;
+
+}
+#menu i{
+
+	height: 100%;
+	padding-left: 100px;
+	line-height: 40px;
+ 	color: white;
+
+}
+#cha{	
+	width: 300px;	
+	top: 50px;
+	left: -40px;
+	position:absolute;
+}
+#menu li:hover #cha{
+	display: block;}
+
+#cha li{
+	background: #007700;	
+	clear: both;
+	width: 200px;
+	border-bottom: 1px groove white;}
+#cha{
+	display: none;
+}
+/* #cha1{
+	display: none;
+} */
+
+/* #cha1 li{
+	background: #007700;	
+	clear: both;
+	width: 200px;
+	border-bottom: 1px groove white;}
+ */
+/* 	#cha1{	
+	padding-left: 10px;
+width: 300px;	
+top: 50px;
+left: 400px;
+position:absolute; */
+/* } */
+#cha li:hover #cha1{
+	display:block;
+	background: #007700;	
+	clear: both;
+	width: 200px;
+	border-bottom: 1px groove white;}
+
+}

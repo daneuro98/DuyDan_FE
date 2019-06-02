@@ -1,0 +1,265 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#header{
+	width: 100%;
+	height: 200px;
+	background: auto;
+	padding-left: 27%;
+
+}
+#header ul li  {
+	color: white;
+	list-style: none;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 100%;
+	line-height: 40px;
+/* 	border-right: 1px groove white;
+	 */	position: relative;
+	text-decoration: none;
+	background: auto;}
+#header ul li a{
+	text-decoration: none;
+}
+	
+	#content{
+		width: 100%;
+		height:950px;
+		background: #d8d6d6;
+	}
+	#div2{
+		width: 100%;
+		height: 70%;
+		display: block;
+		background: auto;
+
+	}
+	#div21{
+		width: 30%;
+		height: 50%;
+		background: auto;
+		float: left;
+		margin-left: 10px; 
+		margin-top: 10px;
+		padding-left: 20px;
+
+	}
+	#div1{align-content: center;
+		width: 100%;
+		height: 10%;
+		padding-left: 30px;
+		padding-bottom: 40px;
+	}
+	#h1{
+		padding-left: 25%;
+
+		padding-top: 20px;
+		font-size: 30px;
+		color: #34d8d8;
+	}
+	#div22{
+		width: 30%;
+		height: 50%;
+		background: auto;
+		float: left;
+		margin-left: 10px; 
+		margin-top: 10px;
+		padding-left: 20px;
+
+	}
+	#div23{
+		width: 30%;
+		height: 50%;
+		background: auto;
+		float: left;
+		margin-left: 10px; 
+		margin-top: 10px;
+		padding-left: 20px;
+
+	}
+	#div24{
+		width: 30%;
+		float: left;
+	margin-left: 10px; 
+		margin-top: 10px;
+		padding-left: 20px;
+		height: 50%;
+		
+	}
+	#div25{
+		width: 30%;
+		float: left;
+		margin-left: 10px; 
+		margin-top: 10px;
+		padding-left: 20px;
+		height: 50%;
+	}
+	#div26{
+		width: 30%;
+		float: left;
+		margin-left: 10px; 
+		margin-top: 10px;
+		padding-left: 20px;
+		height: 50%;
+	}
+.img1{
+	width: 80%;
+	height:60%;
+}
+.blue{
+	color: #34d8d8;
+	text-decoration: none;
+
+}
+.p1{
+	padding-left: 30%;
+	padding-top: 25px;
+
+}
+#div2to{
+	display: block;
+	height: 45%;
+	background: auto;
+	width: 100%;
+}
+.p2{
+	padding-left: 10%;
+}
+
+#div3{
+	width: 100%;
+	height: 20%;
+	background: white;
+
+}
+#div31{
+	width: 68%;
+	height: 50px;
+	float: left;
+
+}
+#div32{
+	width: 30%;
+	height: 100px;
+	float: left;}
+
+
+#footer{
+	width: 1000px;
+	height: 350px;
+	padding-left:20px;
+	background: blue;
+}
+#thep{
+	color: white;
+	padding-bottom:10px;
+	padding-top: 10px;
+
+}
+#thep1{
+	color: white;
+	padding-top: 30px;
+}
+#a{	width: 100%;
+	height: 10px;
+}
+
+
+.mautrang{
+	background: white;
+	width: 80%;
+
+}
+#div2be{display: block;
+	height: 45%;
+	background: auto;
+	width: 100%;
+
+}
+#footer div li{
+	list-style: none;
+}
+.boder{
+border-top: 1px groove white;
+border-bottom: 1px groove  white;
+}
+
+ @media screen and (max-width: 700px){
+ 	#header{
+ 		width: 100%;
+ 		height: 20%;
+ 	}
+ 	#div1{
+ 		width: 100%;
+ 		height: 20%;}
+ 		
+ 	#div2{width: 100%;
+ 		height:70%;
+ 	}
+ 
+ 	}
+ 	#div21{
+ 		width: 50%;
+ 	}
+ 	#div22{
+ 		width: 50%;
+ 	}
+ 	#div23{
+ 		width: 50%;
+ 	}
+ 	#div24{
+ 		width: 50%;
+ 	}
+ 	#div25{
+ 		width: 50%;
+ 	}
+ 	#div26{
+ 		width: 50%
+ 	}
+ 	#content{
+ 		width: 100%;
+ 		height: 1500px;
+ 	}
+ 	#footer{
+ 		width: 100%;
+ 		height: 300px;
+ 	}
+ 
+ }
+
+@media screen and( max-width: 480px){
+	#header{
+		width: 100%;
+	}
+	#content{
+		width: 100%;
+
+	}
+	#div1{
+		width: 100%;
+		
+	}
+	#footer{
+		width: 100%;
+	}
+	#div21{
+		width: 100%;
+	}
+	#div22{
+		width: 100%;
+	}
+	#div23{
+		width: 100%;
+	}
+	#div24{
+		width: 100%;
+	}#div25{
+		width: 100%;
+	}
+	#div26{
+		width: 100%;
+	}
+}

@@ -1,0 +1,15 @@
+#mien_bac li{
+	color: red;
+}
+div ul{
+	color: gray;
+}
+div > ul{
+	color: green;
+}
+a[title= "web26"]{
+	color: pink;
+}
+div~p{
+	color: yellow;
+}
