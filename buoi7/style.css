@@ -1,0 +1,45 @@
+.item{
+	width: 25%;
+	height: 100%;
+	position: relative;
+	float: left;
+
+	
+}
+#div1{
+	width: 100%;
+	height: 200px;
+
+}
+.content{
+	
+	
+}
+.chu{
+	font-size: 27px;
+	top: 0;
+	left: 0;
+	position: absolute;
+/* 	align-content: center;
+ *//* 	display: none;
+ */
+}
+.imgh{
+	width: 100%;
+	height: 100%;
+}
+.item:hover .chu{
+	display: block;
+}
+.mau_cam{
+	color: orange;
+}
+.size{
+	font-size: 14px;
+	color: white;
+}
+@media screen and ( max-width:380px ){
+	.item{
+		width:100%;
+	}
+}
