@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<link rel="stylesheet" type="text/css" href="../buoi4/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="slide">
+		<div class="dieukhien">
+			<i class="fa fa-chevron-circle-left" aria-hidden="true" onclick="Back()" ></i>
+			<i class="fa fa-chevron-circle-right" aria-hidden="true" onclick="Next()"></i>		
+		</div>
+		<div class="chuyen-slide">
+			<img src="../img/1.png"  >
+			<img src="../img/2.png" >
+			<img src="../img/3.png" >
+			<img src="../img/4.png" >
+			<img src="../img/5.png" >
+		</div>
+		<div class="bam">
+			<span class="bam12"  onclick="bam(0)"><i class="fa fa-square-o" aria-hidden="true" ></i></span>
+			<span  class="bam12"  onclick="bam(1)"><i class="fa fa-square-o" aria-hidden="true" ></i></span>
+			<span  class="bam12"  onclick="bam(2)"><i class="fa fa-square-o" aria-hidden="true" ></i></span>
+			<span  class="bam12"  onclick="bam(3)"><i class="fa fa-square-o" aria-hidden="true" ></i></span>
+			<span  class="bam12"  onclick="bam(4)"><i class="fa fa-square-o" aria-hidden="true" ></i></span>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var Kichthuoc = document.getElementsByClassName("slide")[0].clientWidth;
+		var ChuyenSlide = document.getElementsByClassName("chuyen-slide")[0];
+		var Img = ChuyenSlide.getElementsByTagName("img");
+		var Max = Kichthuoc * Img.length;
+		Max -= Kichthuoc;
+		var Chuyen =0;
+
+		function Next(){
+			if(Chuyen < Max) Chuyen += Kichthuoc;
+			else Chuyen =0;
+			ChuyenSlide.style.marginLeft = '-' + Chuyen + 'px';	
+		}
+
+		function Back(){
+			if(Chuyen == 0) Chuyen = Max;
+			else Chuyen -= Kichthuoc ;
+			ChuyenSlide.style.marginLeft = '-' + Chuyen + 'px';	
+		}
+
+		// setInterval(function(){
+		// 	Next();
+		// },5000)
+
+		function bam(n){
+			Chuyen= n*1000;
+			ChuyenSlide.style.marginLeft = '-' + Chuyen + 'px';	
+		}
+		
+	</script>
+</body>
+</html>

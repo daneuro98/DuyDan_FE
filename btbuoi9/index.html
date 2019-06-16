@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="khung">
+
+		<div id="div1">
+			<div class="div">
+				<ul>
+					<li>Họ và tên: </li>
+					<li><input type="text"></li>
+					<li><span></span></li>
+				</ul>
+			</div>
+			<div class="div">
+				<ul>
+					<li>Giới tính: </li>
+					<li><input type="radio">Nam</li>
+					<li><input type="radio">Nữ</li>
+				</ul>
+			</div>
+			<div class="div" id="email">
+				<ul>
+					<li>Email: </li>
+					<li><input type="email" onclick="validateEmail"(this)></li>
+					<li><span></span></li>
+				</ul>
+			</div>
+			<div class="div">
+				<ul>
+					<li>Số điện thoại: </li>
+					<li><input type="text" submit></li>
+					<li><span></span></li>
+				</ul>
+			</div>
+			<div class="div">
+				<ul>
+					<li>Mật khẩu: </li>
+					<li><input type='password'   /></li>
+					<li><span></span></li>
+				</ul>
+			</div>
+			<div class="div">
+				<ul>
+					<li>Xác nhận mật khẩu: </li>
+					<li><input type="text"></li>
+					<li><span></span></li>
+				</ul>
+			</div>
+		</div>
+		<div id="khung2">
+				<ul>
+					<button type="button">Đăng kí</button>
+
+					<button type="button">Xóa trắng</button>
+				</ul>
+		</div>	
+
+
+
+
+
+
+
+	</div>
+	<script>
+		var errors = document.getElementsByTagName('span') //1 mang
+		var euro = document.getElementsByTagName('button')[0];
+		euro.addEventListener('click',function(){
+			var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+			if (!re.test(email)) {
+				errors[1].innerHTML="Email không đúng định dạng";
+
+			}else{
+				errors[1].innerHTML=""
+			}
+			var pass =/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/;
+			if (!pass.test(pass)) {
+				errors[3].innerHTML="Mật khẩu không đúng định dạng";
+			}else{
+				errors[3].innerHTML=""}
+		
+			});
+		/* var password = document.password.value;
+ 
+        if (name == null || name == "") {
+            alert("Name can't be blank");
+            return false;
+        } else if (password.length < 6) {
+            alert("Password must be at least 6 characters long.");
+            return false;
+        }
+*/
+	
+
+
+
+		// $(".buttonClick").click(function () {
+
+		// 	if ($("input[type=text]").filter(function () {
+		// 		return this.value.match(/^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])([a-zA-Z0-9]{8})$/);
+		// 	})) {
+		// 		$("div").text("pass");
+		// 	} else {
+		// 		$("div").text("fail");
+		// 	}
+
+		// });
+
+	</script>	
+</body>
+</html>

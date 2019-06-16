@@ -1,0 +1,51 @@
+*{
+	padding: 0px;
+	margin :0px;
+}
+
+.slide{
+	width: 1000px;
+	margin : 0px auto;
+	overflow: hidden;
+	margin-top: 50px;
+	border-radius: 10px;
+	position: relative;
+
+}
+.chuyen-slide{
+	width: 8888px;
+}
+img{
+	width: 1000px;
+	height: 500px;
+	float: left;
+}
+.dieukhien{
+	position: absolute;
+	color: white;
+	font-size: 40px;
+	top: 46%;
+	padding-left: 30px;
+	display: none;
+}
+.slide:hover .dieukhien{
+	display: block;
+}
+.dieukhien i:last-child{
+	position: relative;
+	left: 850px;
+}
+
+.bam{
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	float: left;
+	top: 90%;
+	padding-left: 80%;
+
+}
+
+.bam>span{
+	margin-left: 10px;
+}
