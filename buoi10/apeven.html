@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+	<style>
+		.color{
+			color: red;
+		}
+		p{
+			color: green;
+		}
+	</style>
+
+</head>
+<body>
+	<p >
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, velit.
+	</p>
+	<input type="button" id="add" value="update">
+	<input type="button" id ="xoa" value="cancer" >
+	<input type="button" id="toggle" value="toggle">
+	<script type="text/javascript">
+		$(function(){
+			$("#add").click(function(){
+				$("p").addClass("color");
+
+			})
+			$("#xoa").click(function(){
+				$("p").removeClass("color","black")
+			})
+			$("#toggle").click(function(){
+				$("p").toggleClass("color");
+
+			})
+			$("#toggle").on('click',function(){
+				$('p').toggleClass("color")
+			})
+		})
+	</script>
+	
+</body>
+</html>

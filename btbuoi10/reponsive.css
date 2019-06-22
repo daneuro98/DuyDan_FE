@@ -1,0 +1,179 @@
+#phan1{
+	width: 100%;
+	height: 20%;
+	background: auto;
+}
+#div1{
+	width: 100%;
+	height: 20%;
+	background: auto;
+
+}
+#div1 ul li{
+	list-style: none;
+	float: left;
+
+	padding: 5% 3%  5% 7%;
+
+
+}
+#div1 li a{
+	text-decoration: none;
+	display: block;
+}
+.div11{
+	height: 50%;
+	width: 100%;
+	position: relative;
+}
+.div11 img{
+	width: 100%;
+}
+.ig1{
+	width: 100%;
+	height: 100%;
+/* 	position: absolute;
+ */}
+#div112{
+	position: absolute;
+	top:0;
+}
+
+#div11:hover #div112{
+	display: block;
+}
+.div21{
+	float: left;
+	width: 28%;
+	padding: 5% 2% 5% 2%;
+	background: white;
+
+}
+#phan21{
+	padding: 5% 2% 5% 2%;
+	display: inline-block;
+}
+
+#phan2{
+	display: inline-block;
+
+}
+ .div22{
+ 	padding-top: 3%;
+
+ }
+ #left{
+ 	width: 25%;
+ 	float: left;
+ 	background: white;
+ 	height: 100%;
+
+ }
+.left1{
+	border-bottom: 1px dotted black;
+	display: inline-block;
+	width: 100%;
+	height: 20%;
+}
+.left1 div{
+	float: left;
+}
+.font_num{
+	font-size:30px;
+}
+.left111{
+	width: 90%;
+}
+.left11{
+	width: 10%;
+}
+i{
+	color: red;
+}
+.left111 p{
+	float: left;
+}
+.left111 i{
+	float: left;
+}
+#mid{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+#mid1{
+	display: inline-block;
+
+}
+#mid1 img{
+	padding-bottom: 5%;
+	width: 100%;
+}
+#left_top{
+	height: 50%;
+}
+#left_bot{
+	height: 50%;
+}
+#left_bot img{
+	width: 100%;
+}
+#left_bot div{
+	border-bottom: 1px dotted black;
+
+}
+a{
+	text-decoration: none;
+	color: #f7a85d;
+}
+#a{
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	background: red;
+}
+#right{
+	float: left;
+	width: 20%;
+	height: 100%;
+
+}
+
+.right1{
+	background: red;
+/* 	padding-right: 30%;
+	 */	border-style: 1px solid black;
+	 padding-bottom: 20%;
+}
+#div23{
+	width: 100%;
+	height:100%;
+}
+#phan3 img{
+	width: 100%;
+}
+#phan4{
+	width: 100%;
+}
+.gray{
+	color: #d6cbcb;
+}
+#phan2to{
+	background: #d6cbcb;
+	width: 100%;
+	
+}
+.div41{
+	float: left;
+	width: 30%;
+}
+.div41 div{
+	border-bottom: 1px groove #ffaa56;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+button{
+	background: black;
+	color: white;
+	font-style: 50px;
+}

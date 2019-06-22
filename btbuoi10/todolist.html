@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="todo.css">
+	<script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+
+
+</head>
+<body>
+	<div class="content">
+		<div id="div1" class="header">
+			<h2>My to do List</h2>
+			<input id="inp1" type="text" placeholder="title...">
+			<button id="add" class="addBtn">ADD</button>
+		</div>
+		<ul class="li1">
+			<li>Pay bills</li>
+			<li>Read a book</li>
+			<li>Buy eggs</li>
+		</ul>
+		
+	</div>
+	<script type="text/javascript">
+		$(function(){
+			$("#add").click(function(){
+				var input = $('#inp1').val()
+
+				$('.li1').append(
+					`<li>`+input+` <span class="delete"> X  </span></li>`
+					);
+				$("#inp1").val('')
+
+			});
+			$(document).on('click', '.delete' , function(){
+				$(this).parent().remove();
+			})
+			// $(".delete").click(function(){
+			// 	$(this).parent().remove();
+			// })
+		})
+	</script>
+</body>
+</html>
