@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+
+	<style>
+		.hi *{
+			display: block;
+			border: 3px solid gray;
+			color: gray;
+			margin: 10px;
+			padding: 10px;
+
+		}
+		
+	</style>
+	<script >
+		$(document).ready(function(){
+			/*$('span').parent().css({
+				"color":"red","boder":"3px solid red"
+			})*/
+			$('ul').children('#xx').css('color','red');
+		})
+	</script>
+
+
+</head>
+<body>
+	<div class="hi">
+		<ul>ul
+			<li>li<span>span</span></li>
+			<li id="xx">li<span>span</span></li>
+		</ul>
+	</div>
+	
+</body>
+</html>
